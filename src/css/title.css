@@ -1,0 +1,7 @@
+@import url("./variables.css");
+.title {
+  font-size: 2.5rem;
+  color: var(--color-four);
+  margin: 20px auto;
+}
+

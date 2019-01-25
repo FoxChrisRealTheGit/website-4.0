@@ -1,0 +1,72 @@
+@import url("./variables.css");
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section--column {
+  flex-direction: column;
+}
+
+.section--center {
+  justify-content: center;
+}
+
+.section--header {
+  height: 100px;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.section--footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: var(--color-six);
+  padding: 10px;
+  font-size: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.section--quote {
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-three);
+}
+
+.section--portfolio {
+  height: 700px;
+  background: var(--color-six);
+}
+
+.section--about {
+  height: 700px;
+  background: var(--color-six);
+}
+
+.section--contact {
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section--hero {
+  width: 100%;
+}
+
+.section--h-full {
+  height: 100%;
+}
+.section--w-full {
+  width: 100%;
+}
+.section--w-80 {
+  width: 80%;
+}
+.section--h-100 {
+  height: 100px;
+}

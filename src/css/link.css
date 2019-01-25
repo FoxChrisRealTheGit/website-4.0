@@ -1,0 +1,25 @@
+@import url("./variables.css");
+.link {
+  margin: 20px auto;
+  cursor: pointer;
+  border: 2px solid var(--color-four);
+  color: var(--color-four);
+  background: var(--color-three);
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  transition: linear 0.4s all;
+}
+.link:hover {
+  background: var(--color-four);
+  color: var(--color-three);
+  transition: linear 0.4s all;
+  border: 2px solid var(--color-three);
+}
+
+.link-active {
+  background: var(--color-four);
+  color: var(--color-three);
+  border: 2px solid var(--color-three);
+}

@@ -1,0 +1,83 @@
+@import url("./variables.css");
+.carousel {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.arrow {
+  border: 3px solid var(--color-four);
+  color: var(--color-four);
+  background: var(--color-three);
+  height: 200px;
+  width: 75px;
+  border-radius: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  transition: linear 0.4s all;
+}
+.arrow:hover {
+  background: var(--color-four);
+  color: var(--color-three);
+  transition: linear 0.4s all;
+  border: 3px solid var(--color-three);
+}
+.arrow--left {
+  left: 10px;
+}
+
+.arror--right {
+  right: 10px;
+}
+
+.carousel--item {
+  width: 60vw;
+  height: 80%;
+}
+
+.carousel--item-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background: var(--color-three);
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid var(--color-four);
+}
+
+.carousel--item-one {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel--circle {
+  width: 20px;
+  height: 20px;
+  background: var(--color-three);
+  border: 2px solid var(--color-four);
+  border-radius: 50%;
+  margin: 10px 20px;
+  cursor: pointer;
+  transition: linear 0.4s all;
+}
+
+.carousel--circle:hover {
+  background: var(--color-four);
+  border: 2px solid var(--color-three);
+  transition: linear 0.4s all;
+}
+
+.carousel--circle--active {
+  background: var(--color-four);
+  border: 2px solid var(--color-three);
+}

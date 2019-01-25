@@ -1,0 +1,46 @@
+@import url("./variables.css");
+
+.button {
+  background: var(--color-three);
+  color: black;
+  border: 3px solid  var(--color-four);
+  color: var(--color-four);
+  transition: linear 0.42s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background:  var(--color-four);
+  color: white;
+  transition: linear 0.42s all;
+  border: 3px solid  var(--color-three);
+  cursor: pointer;
+}
+
+.button--circle {
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+}
+
+.button--right {
+  visibility: visible;
+  position: fixed;
+  right: 20px;
+  bottom: 15vh;
+  z-index: 4;
+  font-size: 2rem;
+}
+.button--right-two {
+  bottom: 35vh;
+}
+.button--right-three {
+  bottom: 55vh;
+}
+.button--right-four {
+  bottom: 75vh;
+}

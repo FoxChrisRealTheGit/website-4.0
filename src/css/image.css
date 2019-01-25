@@ -1,0 +1,9 @@
+@import url("./variables.css");
+.image {
+  max-width: 100%;
+  max-height: 550px;
+}
+
+.image--baner {
+  width: 100vw;
+}

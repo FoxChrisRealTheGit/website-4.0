@@ -36,22 +36,28 @@
   align-items: center;
   justify-content: center;
   background: var(--color-three);
+ 
 }
 
 .section--portfolio {
   height: 700px;
   background: var(--color-six);
+  background-image: url("/images/background/dark_embroidery.png");
 }
 
 .section--about {
   height: 700px;
   background: var(--color-six);
+  background-image: url("/images/background/dark_embroidery.png");
 }
 
 .section--contact {
   height: 500px;
   align-items: center;
   justify-content: center;
+}
+.section--icons{
+   background-image: url("/images/background/concrete_seamless.png");
 }
 
 .section--hero {

@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/icon.css";
 export default function Icons() {
   return (
-    <div className="section" id="my-portfolio"> 
+    <div className="section section--icons" id="my-portfolio"> 
      <img className="icon"  src="./images/svg/icons/idIcon.svg" alt="adobe InDesign Icon" />
     <img className="icon"  src="./images/svg/icons/psIcon.svg" alt="adobe Photoshop Icon" />
       <img className="icon" src="./images/svg/icons/aiIcon.svg" alt="adobe Illustrator Icon" />   

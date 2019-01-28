@@ -3,7 +3,7 @@
 .button {
   background: var(--color-three);
   color: black;
-  border: 3px solid  var(--color-four);
+  border: 3px outset  var(--color-four);
   color: var(--color-four);
   transition: linear 0.42s all;
   display: flex;
@@ -11,6 +11,7 @@
   justify-content: center;
   text-decoration: none;
   border-radius: 20px;
+  box-shadow: 0 0 5px 0.2px black;
 }
 
 .button:hover {

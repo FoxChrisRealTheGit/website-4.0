@@ -8,7 +8,7 @@
 }
 
 .arrow {
-  border: 3px solid var(--color-four);
+  border: 3px outset var(--color-four);
   color: var(--color-four);
   background: var(--color-three);
   height: 200px;
@@ -50,7 +50,7 @@
   background: var(--color-three);
   padding: 20px;
   border-radius: 20px;
-  border: 3px solid var(--color-four);
+  border: 3px outset var(--color-four);
 }
 
 .carousel--item-one {
@@ -64,7 +64,7 @@
   width: 20px;
   height: 20px;
   background: var(--color-three);
-  border: 2px solid var(--color-four);
+  border: 2px outset var(--color-four);
   border-radius: 50%;
   margin: 10px 20px;
   cursor: pointer;

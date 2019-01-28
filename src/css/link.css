@@ -2,7 +2,7 @@
 .link {
   margin: 20px auto;
   cursor: pointer;
-  border: 2px solid var(--color-four);
+  border: 2px outset var(--color-four);
   color: var(--color-four);
   background: var(--color-three);
   padding: 10px;

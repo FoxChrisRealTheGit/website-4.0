@@ -40,13 +40,13 @@
 }
 
 .section--portfolio {
-  height: 700px;
+  height: 1000px;
   background: var(--color-six);
   background-image: url("/images/background/dark_embroidery.png");
 }
 
 .section--about {
-  height: 700px;
+  height: 1000px;
   background: var(--color-six);
   background-image: url("/images/background/dark_embroidery.png");
 }

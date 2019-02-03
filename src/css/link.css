@@ -2,24 +2,23 @@
 .link {
   margin: 20px auto;
   cursor: pointer;
-  border: 2px outset var(--color-four);
-  color: var(--color-four);
+  color: var(--color-two);
   background: var(--color-three);
   padding: 10px;
   width: 200px;
-  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   border-radius: 20px;
   transition: linear 0.4s all;
 }
 .link:hover {
-  background: var(--color-four);
+  background: var(--color-five);
   color: var(--color-three);
   transition: linear 0.4s all;
-  border: 2px solid var(--color-three);
 }
 
 .link-active {
-  background: var(--color-four);
+  background: var(--color-two);
   color: var(--color-three);
-  border: 2px solid var(--color-three);
 }

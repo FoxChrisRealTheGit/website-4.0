@@ -60,7 +60,7 @@ export default class Portfolio extends React.Component {
   }
   render() {
     return (
-      <div className="section section--portfolio">
+      <div id="my-portfolio" className="section section--portfolio">
         <div className="section section--w-80 section--h-100">
           <h5
             className={`link ${this.state.web && "link-active"}`}

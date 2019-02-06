@@ -1,17 +1,15 @@
 @import url("./variables.css");
 .carousel {
-  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 650px;
 }
 
 .arrow {
   color: var(--color-two);
   background: var(--color-three);
-  height: 200px;
-  width: 75px;
+  height: 100px;
+  width: 50px;
   border-radius: 20px;
   margin: 0 auto;
   cursor: pointer;
@@ -37,27 +35,27 @@
 
 .carousel--item {
   width: 60vw;
-  height: 80%;
+  height: 100%;
 }
 
 .carousel--item-two {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
   background: var(--color-three);
-  padding: 20px;
-  border-radius: 0 20px 20px 0;
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+  height: 50%;
 }
 
 .carousel--item-one {
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--color-three);
-  border-radius: 20px 0 0 20px;
-  padding-left: 10px;
+  border-radius: 20px 20px 0 0;
+  height: 50%;
+  width: 100%;
 }
 
 .carousel--circle {
@@ -77,4 +75,59 @@
 
 .carousel--circle--active {
   background: var(--color-two);
+}
+
+/* medium */
+@media screen and (min-width: 950px) {
+  .carousel {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+.carousel--item {
+  height: 80%;
+}
+.arrow {
+  color: var(--color-two);
+  background: var(--color-three);
+  height: 200px;
+  width: 75px;
+  border-radius: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  transition: linear 0.4s all;
+}
+.carousel--item-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background: var(--color-three);
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+  height: 100%;
+}
+
+.carousel--item-one {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-three);
+  border-radius: 20px 0 0 20px;
+  padding-left: 10px;
+  height: 100%;
+}
+}
+
+/* large */
+@media screen and (min-width: 1200px) {
+
 }

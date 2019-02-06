@@ -6,6 +6,7 @@
 
 .section--column {
   flex-direction: column;
+  justify-content: center;
 }
 
 .section--center {
@@ -36,11 +37,9 @@
   align-items: center;
   justify-content: center;
   background: var(--color-three);
- 
 }
 
 .section--portfolio {
-  height: 1000px;
   background: var(--color-six);
   background-image: url("/images/background/dark_embroidery.png");
 }
@@ -56,12 +55,8 @@
   align-items: center;
   justify-content: center;
 }
-.section--icons{
-   background-image: url("/images/background/concrete_seamless.png");
-}
-
-.section--hero {
-  width: 100%;
+.section--icons {
+  background-image: url("/images/background/concrete_seamless.png");
 }
 
 .section--h-full {
@@ -73,6 +68,26 @@
 .section--w-80 {
   width: 80%;
 }
-.section--h-100 {
+
+.section--responsive {
+  flex-direction: column;
+}
+
+/* medium */
+@media screen and (min-width: 800px) {
+  .section--responsive {
+    flex-direction: row;
+  }
+  .section--h-100 {
   height: 100px;
+}
+.section--portfolio {
+  height: 1000px;
+  background: var(--color-six);
+  background-image: url("/images/background/dark_embroidery.png");
+}
+}
+
+/* large */
+@media screen and (min-width: 1200px) {
 }

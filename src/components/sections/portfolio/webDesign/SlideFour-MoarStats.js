@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SlideFour(props) {
   return (
-    <div className="section section--h-full">
+    <div className="section section--h-full section--responsive">
       <div className="carousel--item-one">
         <img
           className="image"

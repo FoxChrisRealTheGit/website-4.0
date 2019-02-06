@@ -4,7 +4,7 @@ export default function SlideOne(props) {
   return (
     <div className="section section--h-full">
       <div className="carousel--item-one">
-        <img src="./images/jpg/bydeathswatch.jpg" alt="" />
+        <img className="image--centered" src="./images/jpg/bydeathswatch.jpg" alt="" />
       </div>
       <div className="section carousel--item-two">
         <h3 className="title">About Me!!</h3>

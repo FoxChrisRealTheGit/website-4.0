@@ -1,9 +1,18 @@
 @import url("./variables.css");
 .image {
-  max-width: 100%;
-  max-height: 550px;
+  width: 100%;
+  height: auto;
+}
+.image--centered{
+  margin: 0 auto;
 }
 
-.image--baner {
-  width: 100vw;
+/* medium */
+@media screen and (min-width: 800px) {
+
+}
+
+/* large */
+@media screen and (min-width: 1200px) {
+
 }

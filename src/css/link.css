@@ -22,3 +22,13 @@
   background: var(--color-two);
   color: var(--color-three);
 }
+
+/* medium */
+@media screen and (min-width: 800px) {
+
+}
+
+/* large */
+@media screen and (min-width: 1200px) {
+
+}

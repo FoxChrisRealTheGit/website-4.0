@@ -14,7 +14,7 @@
 }
 
 .button:hover {
-  background:  var(--color-five);
+  background: var(--color-five);
   color: white;
   transition: linear 0.42s all;
   cursor: pointer;
@@ -27,19 +27,31 @@
 }
 
 .button--right {
-  visibility: visible;
-  position: fixed;
-  right: 20px;
-  bottom: 15vh;
-  z-index: 4;
-  font-size: 2rem;
+  visibility: hidden;
+  position: absolute;
+  z-index: -3;
 }
-.button--right-two {
-  bottom: 35vh;
+
+/* medium */
+@media screen and (min-width: 950px) {
+  .button--right {
+    visibility: visible;
+    position: fixed;
+    right: 20px;
+    bottom: 15vh;
+    z-index: 4;
+    font-size: 2rem;
+  }
+  .button--right-two {
+    bottom: 35vh;
+  }
+  .button--right-three {
+    bottom: 55vh;
+  }
+  .button--right-four {
+    bottom: 75vh;
+  }
 }
-.button--right-three {
-  bottom: 55vh;
-}
-.button--right-four {
-  bottom: 75vh;
+/* large */
+@media screen and (min-width: 1200px) {
 }

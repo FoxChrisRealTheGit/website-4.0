@@ -42,7 +42,7 @@ export default class Carousel extends React.Component {
   }
   render() {
     return (
-      <div className="section section--column">
+      <div className="section section--column section--w-full">
         <div className="carousel">
           {this.state.loaded && (
             <React.Fragment>

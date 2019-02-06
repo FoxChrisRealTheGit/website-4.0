@@ -1,4 +1,4 @@
-class MobileMenu {
+  export default class MobileMenu {
     constructor(
       siteHeader,
       siteHeaderExpanded,
@@ -26,4 +26,3 @@ class MobileMenu {
     }
   }
   
-  export default MobileMenu;

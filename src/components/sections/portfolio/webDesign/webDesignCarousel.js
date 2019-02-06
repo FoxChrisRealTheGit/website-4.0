@@ -8,11 +8,13 @@ import SlideTwo from "./SlideTwo-AtaraxyLife";
 import SlideTwoFive from "./SlideTwoFive-Peax";
 import SlideThree from "./SlideThree-AtaraxyClothing";
 import SlideFour from "./SlideFour-MoarStats";
+import SlideFive from "./SlideFive-AdorableHome";
 export default function WebDesignCarousel(props) {
   return (
     <React.Fragment>
       <Carousel
         carousel={[
+          <SlideFive />,
           <SlideFour />,
           <SlideThree />,
           <SlideTwoFive />,

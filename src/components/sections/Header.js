@@ -10,7 +10,7 @@ import MobileMenu from "../../js/mobileMenu";
 import "../../css/header.css";
 export default class Header extends React.Component {
   componentDidMount() {
-    let mobileMenu = new MobileMenu(
+    new MobileMenu(
       "header__main",
       "header--is-expanded",
       "header__menu-icon",
@@ -22,7 +22,10 @@ export default class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <header id="header__main" className="section section--header header__main">
+        <header
+          id="header__main"
+          className="section section--header header__main"
+        >
           <div className="brand">
             <img
               src="./images/svg/foxtail2-1.svg"
@@ -50,7 +53,7 @@ export default class Header extends React.Component {
             </li>
             <li>
               <a
-              className="header__menu-content--link"
+                className="header__menu-content--link"
                 href="https://www.linkedin.com/in/foxchrisrealthe/"
                 target="_blank"
                 rel="noopener noreferrer"

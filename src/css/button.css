@@ -10,9 +10,13 @@
   justify-content: center;
   text-decoration: none;
   border-radius: 20px;
-  box-shadow: 0 0 5px 0.2px black;
+  
+  border: 0;
+  outline: 0;
 }
-
+.button--m-top{
+  margin-top: 20px;
+}
 .button:hover {
   background: var(--color-five);
   color: white;
@@ -30,8 +34,18 @@
   visibility: hidden;
   position: absolute;
   z-index: -3;
+  box-shadow: 0 0 5px 0.2px black;
 }
 
+.button__submit{
+  height: 50px;
+  font-size: 2rem;
+  width: 100%;
+}
+.button__submit:hover{
+  background: black;
+  color: white;
+}
 /* medium */
 @media screen and (min-width: 950px) {
   .button--right {

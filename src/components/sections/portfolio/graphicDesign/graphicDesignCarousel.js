@@ -12,11 +12,13 @@ import SlideSeven from "./SlideSeven-GrooperLogo";
 import SlideEight from "./SlideEight-BobDylan";
 import SlideNine from "./SlideNine-NightmarePoster";
 import SlideTen from "./SlideTen-HomeSpringsLogo";
+import SlideEleven from "./SlideEleven-GlowWorkshop";
 export default function GraphicDesignCarousel(props) {
   return (
     <React.Fragment>
       <Carousel
         carousel={[
+          <SlideEleven />,
           <SlideTen />,
           <SlideNine />,
           <SlideEight />,

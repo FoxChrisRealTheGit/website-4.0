@@ -13,7 +13,7 @@ export default function SlideThree(props) {
       <div className="section carousel--item-two">
         <h3 className="title">Ataraxy Clothing</h3>
         <h5>Worked on: January 2018 - August 2018</h5>
-        <p className="body">First React Ecommerce site</p>
+        <p className="body">First React Ecommerce website. This was rebuilt two times and then continuously updated using the Aristos CMS (my custom-built CMS)..</p>
       </div>
     </div>
   );

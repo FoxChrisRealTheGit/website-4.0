@@ -6,14 +6,14 @@ export default function SlideNine(props) {
       <div className="carousel--item-one">
         <img
           className="image"
-          src="./images/portfolio/graphic/nightmaresPoster.jpg"
+          src="./images/portfolio/graphic/Workshop_1.1.jpg"
           alt=""
         />
       </div>
       <div className="section carousel--item-two">
-        <h3 className="title">Nightmare Poster</h3>
-        <h5>Worked on: February 2018 - March 2018</h5>
-        <p className="body">Poster for a friend's play</p>
+        <h3 className="title">GlowGrowth and Development Workshop</h3>
+        <h5>Worked on: March 2019</h5>
+        <p className="body">Flier created for a professional development workshop</p>
       </div>
     </div>
   );

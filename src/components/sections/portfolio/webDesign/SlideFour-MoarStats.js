@@ -13,7 +13,13 @@ export default function SlideFour(props) {
       <div className="section carousel--item-two">
         <h3 className="title">MoarStats.io</h3>
         <h5>Worked on: November 2018 - Present</h5>
-        <p className="body">ReactJS/Golang</p>
+        <p className="body">
+          <em>ReactJs/Golang</em>
+        </p>
+        <p className="body">
+          Currently broken while rebuilding the server to support SQL. Does have
+          working multiplayer chess and go boards.
+        </p>
       </div>
     </div>
   );

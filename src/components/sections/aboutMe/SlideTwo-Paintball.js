@@ -11,7 +11,7 @@ export default function SlideTwo(props) {
         <p className="body">
           I've been playing paintball since the 8th grade. It is a sport that
           has truly captured my heart. Specifically, tournament speedball. The
-          high risk plays that can be made are not nessesarily prevelant in
+          high risk plays that can be made are not necessarily prevalent in
           other sports. Paintball has taught me a high degree of teamwork and
           problem solving in a high stress environment.
         </p>

@@ -17,7 +17,7 @@ export default function SlideFour(props) {
           <em>HTML/Golang</em>
         </p>
         <p className="body">
-          Built for a Dermatology Business to give a web presence.
+          Built for a Dermatology Business to give the client a web presence.
         </p>
       </div>
     </div>

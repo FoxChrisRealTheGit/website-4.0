@@ -17,10 +17,11 @@ export default function SlideFour(props) {
           <em>HTML/Golang</em>
         </p>
         <p className="body">
-          Built for a client to allow renters to view property and inquire for
-          more information. The client also requested that the webpage have an
-          administration section to allow them to send rental agreements and
-          other forms to clients.
+        Built for a client to allow renters to view property and inquire for
+        more information. The client also requested that the webpage have an
+        administration section to allow them to send rental agreements and
+        other forms to clients, as well as upload new documents and images.
+
         </p>
       </div>
     </div>

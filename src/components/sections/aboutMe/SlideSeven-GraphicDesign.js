@@ -10,10 +10,11 @@ export default function SlideSeven(props) {
       <div className="section carousel--item-two">
         <h3 className="title">Graphic Design</h3>
         <p className="body">
-          Through making hats, I found a love of design and building things. I
-          felt that graphic design was the direction that I should pursue. Due
-          to this, I achieved my Bachelor's degree in Graphic Design and Media
-          Arts from Southern New Hampshire University.
+        Through making hats, I found a love of design and building things. I
+        felt that graphic design was the direction that I should pursue. Due
+        to this, I achieved my bachelor’s degree in Graphic Design and Media
+        Arts from Southern New Hampshire University.
+
         </p>
       </div>
     </div>

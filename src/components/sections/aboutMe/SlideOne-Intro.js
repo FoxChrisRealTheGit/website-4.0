@@ -11,7 +11,7 @@ export default function SlideOne(props) {
         <p className="body">
           Welcome to my portfolio website. I am a simple web developer, poet,
           writer, designer, and student of life. I appreciate learning something
-          new everyday and pushing myself to be a better person.
+          new every day and pushing myself to be a better person.
         </p>
       </div>
     </div>

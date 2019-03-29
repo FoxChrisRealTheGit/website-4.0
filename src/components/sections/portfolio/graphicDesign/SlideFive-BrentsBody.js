@@ -13,7 +13,7 @@ export default function SlideFive(props) {
       <div className="section carousel--item-two">
         <h3 className="title">Brent's Bodyworks</h3>
         <h5>Worked on: November 2016 - November 2016</h5>
-        <p className="body">clas assignment</p>
+        <p className="body">class assignment</p>
       </div>
     </div>
   );

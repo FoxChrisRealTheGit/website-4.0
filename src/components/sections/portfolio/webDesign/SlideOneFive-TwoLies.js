@@ -13,7 +13,7 @@ export default function SlideOne(props) {
       <div className="section carousel--item-two">
         <h3 className="title">Two Lies and One Truth</h3>
         <h5>Worked on: February 2017 - June 2017</h5>
-        <p className="body">Some cool info!!</p>
+        <p className="body">Website created to support a podcast project. I learned quite a bit about RSS feeds.</p>
       </div>
     </div>
   );

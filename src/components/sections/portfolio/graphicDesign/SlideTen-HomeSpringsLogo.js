@@ -13,7 +13,7 @@ export default function SlideTen(props) {
       <div className="section carousel--item-two">
         <h3 className="title">Home in The Springs Logo</h3>
         <h5>Worked on: November 2018 - December 2018</h5>
-        <p className="body">First Client Work</p>
+        <p className="body">logo design for a realtor that incorporates pikes peak</p>
       </div>
     </div>
   );

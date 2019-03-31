@@ -1,9 +1,10 @@
 import React from "react";
-import AboutMeCarousel from "./aboutMe/aboutMeCarousel";
+import PageSection from "./../utility/Sections/PageSection";
+import AboutMeInfo from "./aboutMe/aboutMeInformation";
 export default function AboutMe(props) {
   return (
-    <div className="section section--about" id="about-me">
-      <AboutMeCarousel />
-    </div>
+    <PageSection secid="about-me" color="about">
+      <AboutMeInfo />
+    </PageSection>
   );
 }

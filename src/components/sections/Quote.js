@@ -1,25 +1,22 @@
 import React from "react";
 
+import "../../css/blockquote.css";
 export default function Quote(props) {
   return (
     <div className="section section--quote">
-      <div className="secton--column">
-        <div>
-          <div>
-            I'm believing <strong>past impossible</strong>,
-          </div>
-          <div> no matter how</div>
-          <div>
+      <blockquote>
+        <div className="section section--column section--quote ">
+          <p>
+            I'm believing <strong>past impossible</strong>, no matter how
             statistically <strong>improbable</strong>,
-          </div>
-          <div>because when it all comes down to it...</div>
-          <div>as long as I believe in myself, </div>
-          <div>
-            <strong>I'm unstoppable.</strong>
-          </div>
+          </p>
+          <p>
+            because when it all comes down to it... as long as I believe in
+            myself, <strong>I'm unstoppable.</strong>
+          </p>
         </div>
-        - Christopher Fox
-      </div>
+        <span>Christopher Fox</span>
+      </blockquote>
     </div>
   );
 }

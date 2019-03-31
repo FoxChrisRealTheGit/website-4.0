@@ -6,7 +6,7 @@ export default function SlideNine(props) {
       <div className="carousel--item-one">
         <img
           className="image"
-          src="./images/portfolio/graphic/Workshop_1.1.jpg"
+          src="./images/portfolio/graphic/Workshop_1.2.jpg"
           alt=""
         />
       </div>

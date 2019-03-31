@@ -3,40 +3,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .arrow {
   color: var(--color-two);
-  background: var(--color-three);
-  height: 100px;
-  width: 50px;
   border-radius: 20px;
-  margin: 0 auto;
   cursor: pointer;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
+  position: absolute;
+  font-size: 6rem;
   transition: linear 0.4s all;
+  padding: 100% 0 100% 0;
 }
 .arrow:hover {
-  background: var(--color-five);
-  color: var(--color-two);
+  color: var(--color-three);
   transition: linear 0.4s all;
 }
 .arrow--left {
   left: 10px;
 }
 
-.arror--right {
+.arrow--right {
   right: 10px;
 }
 
-.carousel--item {
+/* .carousel--item {
   width: 60vw;
   height: 100%;
-}
+} */
 
 .carousel--item-two {
   display: flex;
@@ -80,54 +74,39 @@
 /* medium */
 @media screen and (min-width: 950px) {
   .carousel {
-  width: 90vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 700px;
-}
-.carousel--item {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+  }
+  /* .carousel--item {
   height: 80%;
-}
-.arrow {
-  color: var(--color-two);
-  background: var(--color-three);
-  height: 200px;
-  width: 75px;
-  border-radius: 20px;
-  margin: 0 auto;
-  cursor: pointer;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
-  transition: linear 0.4s all;
-}
-.carousel--item-two {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  background: var(--color-three);
-  padding: 20px;
-  border-radius: 0 20px 20px 0;
-  height: 100%;
-}
+} */
 
-.carousel--item-one {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--color-three);
-  border-radius: 20px 0 0 20px;
-  padding-left: 10px;
-  height: 100%;
-}
+  .carousel--item-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: var(--color-three);
+    padding: 25px;
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+  }
+
+  .carousel--item-one {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-three);
+    border-radius: 20px 0 0 20px;
+    padding-left: 10px;
+    height: 100%;
+  }
 }
 
 /* large */
 @media screen and (min-width: 1200px) {
-
 }

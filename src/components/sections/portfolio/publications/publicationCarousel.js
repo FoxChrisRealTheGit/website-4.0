@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../../../utility/Carousel";
+import Carousel from "../../../utility/Carousel/Carousel";
 
 /* import Slides */
 import SlideOne from "./SlideOne-Gendered";

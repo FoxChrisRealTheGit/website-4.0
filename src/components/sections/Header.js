@@ -26,12 +26,6 @@ export default class Header extends React.Component {
           id="header__main"
           className="section section--header header__main"
         >
-          <div className="brand">
-            <img
-              src="./images/svg/foxtail2-1.svg"
-              alt="Christopher Fox's Logo"
-            />
-          </div>
           <div id="header__menu-icon" className="header__menu-icon">
             <div className="header__menu-icon__middle" />
           </div>

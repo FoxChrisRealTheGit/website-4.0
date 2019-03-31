@@ -2,7 +2,7 @@ import React from "react";
 
 /* import Component Sections */
 import Header from "./sections/Header";
-import Hero from "./sections/Hero";
+import Hero from "./sections/hero/Hero";
 import Quote from "./sections/Quote";
 import AboutMe from "./sections/AboutMe";
 import Icons from "./sections/Icons";

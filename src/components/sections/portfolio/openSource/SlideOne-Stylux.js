@@ -1,16 +1,15 @@
 import React from "react";
-
+/* import utility functions */
+import CarouselSlide from "../../../utility/Carousel/Slides/CarouselSlideItem";
 export default function SlideOne(props) {
   return (
-    <div className="section section--h-full">
-      <div className="carousel--item-one">
+    <CarouselSlide>
         <img
           className="image"
           src="./images/portfolio/openSource/reactStyluxTOC.jpg"
           alt=""
         />
-      </div>
-      <div className="section carousel--item-two">
+      <div className="section  section--column section--center">
         <h3 className="title">React Stylux</h3>
         <h5>Worked on: December 2017 - May 2018</h5>
         <p className="body">
@@ -22,6 +21,6 @@ export default function SlideOne(props) {
 
         </p>
       </div>
-    </div>
+      </CarouselSlide>
   );
 }

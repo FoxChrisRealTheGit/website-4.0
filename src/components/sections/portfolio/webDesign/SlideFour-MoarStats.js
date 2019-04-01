@@ -1,16 +1,15 @@
 import React from "react";
-
+/* import utility functions */
+import CarouselSlide from "../../../utility/Carousel/Slides/CarouselSlideItem";
 export default function SlideFour(props) {
   return (
-    <div className="section section--h-full section--responsive">
-      <div className="carousel--item-one">
-        <img
-          className="image"
-          src="./images/portfolio/web/MoarStatsProfile.jpg"
-          alt=""
-        />
-      </div>
-      <div className="section carousel--item-two">
+    <CarouselSlide>
+      <img
+        className="image"
+        src="./images/portfolio/web/MoarStatsProfile.jpg"
+        alt=""
+      />
+      <div className="section section--column section--center">
         <h3 className="title">MoarStats.io</h3>
         <h5>Worked on: November 2018 - Present</h5>
         <p className="body">
@@ -21,6 +20,6 @@ export default function SlideFour(props) {
           working multiplayer chess and go boards.
         </p>
       </div>
-    </div>
+    </CarouselSlide>
   );
 }

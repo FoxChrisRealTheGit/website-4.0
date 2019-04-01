@@ -1,4 +1,6 @@
 import React from "react";
+
+/* import utility functions */
 import Carousel from "../../../utility/Carousel/Carousel";
 
 /* import Slides */
@@ -14,6 +16,7 @@ export default function WebDesignCarousel(props) {
   return (
     <React.Fragment>
       <Carousel
+        arrows={true}
         carousel={[
           <SlideSix />,
           <SlideFive />,

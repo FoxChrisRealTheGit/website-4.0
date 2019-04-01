@@ -39,7 +39,7 @@ export default class ChangingWords extends React.Component {
   render() {
     return (
       <SingleSection>
-        <SecondaryTitle>{this.state.word}</SecondaryTitle>
+        <SecondaryTitle center={true}>{this.state.word}</SecondaryTitle>
       </SingleSection>
     );
   }

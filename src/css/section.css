@@ -13,10 +13,7 @@
   align-items: center;
 }
 
-.section--center {
-  justify-content: center;
-  align-items: center;
-}
+
 
 .section--header {
   height: 100px;
@@ -96,7 +93,10 @@
 .section--m-t-b-20 {
   margin: 20px 0 20px 0;
 }
-
+.section--center {
+  justify-content: center;
+  align-items: center;
+}
 /* medium */
 @media screen and (min-width: 800px) {
   .section--responsive {
@@ -106,7 +106,7 @@
     height: 100px;
   }
   .section--about {
-    height: 1100px;
+    height: 1200px;
   }
   .section--quote {
     height: 310px;

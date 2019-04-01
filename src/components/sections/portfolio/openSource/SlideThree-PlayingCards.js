@@ -1,16 +1,15 @@
 import React from "react";
-
+/* import utility functions */
+import CarouselSlide from "../../../utility/Carousel/Slides/CarouselSlideItem";
 export default function SlideThree(props) {
   return (
-    <div className="section section--h-full">
-      <div className="carousel--item-one">
+    <CarouselSlide>
         <img
           className="image"
           src="./images/portfolio/openSource/cards.jpg"
           alt=""
         />
-      </div>
-      <div className="section carousel--item-two">
+      <div className="section   section--column section--center">
         <h3 className="title">Playing Cards</h3>
         <h5>Worked on: January 2019 - January 2019</h5>
         <p className="body">
@@ -20,6 +19,6 @@ export default function SlideThree(props) {
 
         </p>
       </div>
-    </div>
+      </CarouselSlide>
   );
 }

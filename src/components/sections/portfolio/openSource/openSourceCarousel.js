@@ -1,4 +1,6 @@
 import React from "react";
+
+/* import utility functions */
 import Carousel from "../../../utility/Carousel/Carousel";
 
 /* import Slides */
@@ -8,7 +10,10 @@ import SlideThree from "./SlideThree-PlayingCards";
 export default function OpenSourceCarousel(props) {
   return (
     <React.Fragment>
-      <Carousel carousel={[<SlideThree />, <SlideTwo />, <SlideOne />]} />
+      <Carousel
+        arrows={true}
+        carousel={[<SlideThree />, <SlideTwo />, <SlideOne />]}
+      />
     </React.Fragment>
   );
 }

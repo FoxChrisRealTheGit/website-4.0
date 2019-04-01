@@ -89,9 +89,7 @@ export default class Carousel extends React.Component {
         )}
           {this.state.loaded && (
             <React.Fragment>
-              <div className="carousel--item">
                 {this.state.carousel.slides[this.state.carousel.visibleSlide]}
-              </div>
             </React.Fragment>
           )}
         </div>

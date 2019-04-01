@@ -11,7 +11,7 @@ export default function Experience(props) {
       <div>Web Development 1 1/2 years</div>
       <div>Graphic Design ~ 4 years</div>
       <div>
-        <p>Security less than 1 year</p>
+        <p>Information Technology Security less than 1 year</p>
       </div>
       <div>Poetry ~ 15 years</div>
       <div>Playwriting ~ 5 years</div>

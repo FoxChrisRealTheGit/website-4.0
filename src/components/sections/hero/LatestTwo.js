@@ -1,13 +1,15 @@
 import React from "react";
 
-export default function SlideEight(props) {
+/*import utility functions */
+import CarouselHeroItem from "../../utility/Carousel/Slides/CarouselHeroItem";
+
+export default function LatestTwo(props) {
   return (
-    <div className="section section--h-full">
-    <img
-      className="image image__carousel"
-      src="./images/portfolio/web/drHollyFritch.jpg"
-      alt="Christopher Fox in Aspen Colorado"
+    <CarouselHeroItem
+      image="./images/portfolio/web/drHollyFritch.jpg"
+      alt="Screenshot of webpage for Dr. Holly Fritch Kirby"
+      heading="Recently Finished Project"
+      description="Website created for Dermatology business owner in Kansas City area."
     />
-  </div>
   );
 }

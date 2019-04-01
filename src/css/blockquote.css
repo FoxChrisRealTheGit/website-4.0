@@ -22,12 +22,12 @@ blockquote::before {
   opacity: 0.4;
   position: absolute;
   left: 15%;
-  top: -20%;
+  top: -18%;
 }
 
-blockquote::after {
+/* blockquote::after {
   content: "";
-}
+} */
 
 blockquote span {
   margin: 1rem auto;

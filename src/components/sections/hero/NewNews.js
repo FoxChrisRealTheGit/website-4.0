@@ -1,13 +1,15 @@
 import React from "react";
 
-export default function SlideEight(props) {
+/*import utility functions */
+import CarouselHeroItem from "../../utility/Carousel/Slides/CarouselHeroItem";
+
+export default function NewNews(props) {
   return (
-    <div className="section section--h-full">
-      <img
-        className="image image__carousel"
-        src="./images/jpg/leaf.jpg"
-        alt="Christopher Fox in Aspen Colorado"
-      />
-    </div>
+    <CarouselHeroItem
+      image="./images/jpg/leaf.jpg"
+      alt="Picture of a leaf taken by Christopher Fox"
+      heading="New News!"
+      description="I will be going to Breckenridge Colorado for the summer to experience working at a resort and focus on finishing my Master's of Cyber Security. I am still open to freelance requests, please contact me on LinkedIn."
+    />
   );
 }

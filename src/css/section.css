@@ -38,7 +38,6 @@
 }
 
 .section--quote {
-  height: 200px;
   align-items: center;
   justify-content: center;
   background: var(--color-three);
@@ -107,7 +106,10 @@
     height: 100px;
   }
   .section--about {
-    height: 1000px;
+    height: 1100px;
+  }
+  .section--quote {
+    height: 310px;
   }
   .section--portfolio {
     height: 1000px;
@@ -137,8 +139,17 @@
   .section--w-90 {
     width: 90%;
   }
-  .section--m-10{
+  .section--m-10 {
     margin: 10px;
+  }
+  .section--align-start {
+    align-items: flex-start;
+  }
+  .section--align-end {
+    align-items: flex-end;
+  }
+  .section--align-center {
+    align-items: center;
   }
 }
 

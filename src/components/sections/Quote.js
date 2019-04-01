@@ -3,7 +3,7 @@ import React from "react";
 import "../../css/blockquote.css";
 export default function Quote(props) {
   return (
-    <div className="section section--quote">
+    <React.Fragment>
       <blockquote>
         <div className="section section--column section--quote ">
           <p>
@@ -17,6 +17,6 @@ export default function Quote(props) {
         </div>
         <span>Christopher Fox</span>
       </blockquote>
-    </div>
+    </React.Fragment>
   );
 }

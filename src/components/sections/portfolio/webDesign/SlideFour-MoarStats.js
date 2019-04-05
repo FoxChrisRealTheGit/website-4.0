@@ -6,7 +6,7 @@ export default function SlideFour(props) {
     <CarouselSlide>
       <img
         className="image"
-        src="./images/portfolio/web/MoarStatsProfile.jpg"
+        src="./images/portfolio/web/moarstatslogin.jpg"
         alt=""
       />
       <div className="section section--column section--center">

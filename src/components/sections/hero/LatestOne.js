@@ -6,10 +6,10 @@ import CarouselHeroItem from "../../utility/Carousel/Slides/CarouselHeroItem";
 export default function LatestOne(props) {
   return (
     <CarouselHeroItem
-      image="./images/portfolio/graphic/Workshop_1.2.jpg"
-      alt="Glow Growth and Development workshop"
+      image="./images/portfolio/web/moarstatslogin.jpg"
+      alt="Screenshot of the MoarStats.io login page"
       heading="Latest Finished Project"
-      description="Flier created for a client's business development workshop in Colorado Springs."
+      description="Moarstats.io - Web application that gamify's social media and allows for the handeling of online tournaments, leagues and matches."
     />
   );
 }

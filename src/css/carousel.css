@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  min-height: 400px;
 }
 .arrow {
   position: absolute;

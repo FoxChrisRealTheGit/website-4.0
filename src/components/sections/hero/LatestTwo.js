@@ -6,10 +6,10 @@ import CarouselHeroItem from "../../utility/Carousel/Slides/CarouselHeroItem";
 export default function LatestTwo(props) {
   return (
     <CarouselHeroItem
-      image="./images/portfolio/web/drHollyFritch.jpg"
-      alt="Screenshot of webpage for Dr. Holly Fritch Kirby"
+      image="./images/portfolio/graphic/Workshop2_1.4.jpg"
+      alt="Glow Growth and Development workshop"
       heading="Recently Finished Project"
-      description="Website created for Dermatology business owner in Kansas City area."
+      description="Flier created for a client's business development workshop in Denver Colorado."
     />
   );
 }

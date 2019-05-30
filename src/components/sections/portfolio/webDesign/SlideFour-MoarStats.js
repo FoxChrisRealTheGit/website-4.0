@@ -16,8 +16,8 @@ export default function SlideFour(props) {
           <em>ReactJs/Golang</em>
         </p>
         <p className="body">
-          Currently broken while rebuilding the server to support SQL. Does have
-          working multiplayer chess and go boards.
+          Soon to be released through a closed Alpha to test various items. Does have
+          working multiplayer in-app game capability.
         </p>
       </div>
     </CarouselSlide>

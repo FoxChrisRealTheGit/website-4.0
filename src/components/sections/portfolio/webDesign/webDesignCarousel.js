@@ -18,9 +18,9 @@ export default function WebDesignCarousel(props) {
       <Carousel
         arrows={true}
         carousel={[
+          <SlideFour />,
           <SlideSix />,
           <SlideFive />,
-          <SlideFour />,
           <SlideThree />,
           <SlideTwoFive />,
           <SlideTwo />,
